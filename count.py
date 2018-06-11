@@ -1,11 +1,5 @@
-n=int(input('Enter the number: \n'))
+string=raw_input()
 
-sum=0
+str=len(string)-string.count(' ')
 
-while(n>0):
-	
-    sum=sum+1
-	
-    n=n//10
-
-print('count is',sum)
+print str
